@@ -35,7 +35,9 @@ ZSH_THEME="agnoster"
 
 
 
-then create theme directory
+Then create theme directory **~/.oh-my-zsh/custom/themes/**
+
+And copy [this file](/linux/oh-my-zsh/agnoster.zsh-theme) there.
 
 
 
