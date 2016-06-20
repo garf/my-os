@@ -14,4 +14,5 @@ php -r "if (hash_file('SHA384', 'composer-setup.php') === '070854512ef404f16bac8
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
+composer global require "hirak/prestissimo:^0.3"
 ```
