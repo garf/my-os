@@ -6,7 +6,7 @@ wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - 
 ```
 
 ``` bash
-chsh -s `which zsh
+chsh -s `which zsh`
 ```
 ## Agnoster theme installation
 
