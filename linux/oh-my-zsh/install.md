@@ -10,6 +10,9 @@ chsh -s `which zsh
 ```
 ## Agnoster theme installation
 
+### Install [Powerline Fonts](https://github.com/powerline/fonts)
+
+
 ``` bash
 sudo apt-get install python-pip git
 su -c 'pip install git+git://github.com/Lokaltog/powerline'
@@ -27,7 +30,13 @@ if [[ -r /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline
 fi
 ```
 
-Then change line in **~/.zshrc** to
+### Install Theme
+
+Create theme directory **~/.oh-my-zsh/custom/themes/**
+
+And copy [this file](/linux/oh-my-zsh/agnoster.zsh-theme) there.
+
+Then change config line in **~/.zshrc** to
 
 ``` bash
 ZSH_THEME="agnoster"
@@ -35,9 +44,7 @@ ZSH_THEME="agnoster"
 
 
 
-Then create theme directory **~/.oh-my-zsh/custom/themes/**
 
-And copy [this file](/linux/oh-my-zsh/agnoster.zsh-theme) there.
 
 
 
