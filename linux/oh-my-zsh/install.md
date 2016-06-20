@@ -42,9 +42,5 @@ Then change config line in **~/.zshrc** to
 ZSH_THEME="agnoster"
 ```
 
-
-
-
-
-
+Restart you computer
 
