@@ -1,4 +1,6 @@
-# Install KeePass 2 into Ubuntu
+# Install KeePass 2 with KeeFox into Ubuntu
+
+[Install KeeFox](https://addons.mozilla.org/ru/firefox/addon/keefox/)
 
 `sudo apt-get install keepass2 mono-dmcs libmono-system-management4.0-cil libmono-system-numerics4.0-cil`
 
