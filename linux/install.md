@@ -1,7 +1,7 @@
 # Install necessary packages Ubuntu 16.04
 
 ``` bash
-apt-get -y install yakuake mc git git-core git-gui vim php-cli php-curl curl
+apt-get -y install yakuake mc git git-core git-gui vim php-cli php-curl curl thunderbird
 ```
 
 
