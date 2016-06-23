@@ -18,3 +18,7 @@ Just simple instructions without unnecessary stories.
 
 ## Windows
 
+## Common
+
+* [PHPStorm Settings file](/common/phpstorm/settings.jar)
+
