@@ -6,7 +6,7 @@
 
 `sudo apt-add-repository ppa:dlech/keepass2-plugins`
 
-`sudo apt-get update && sudo apt-get install xul-ext-keefox`
+`sudo apt-get update && sudo apt-get install xul-ext-keefox keepass2-plugin-keepasshttp`
 
 ## Install RPC plugin manually
 
