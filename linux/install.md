@@ -21,6 +21,5 @@ composer global require "hirak/prestissimo:^0.3"
 
 ``` bash
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt update
-sudo apt install sublime-text-installer 
+sudo apt update && apt install sublime-text-installer 
 ```
