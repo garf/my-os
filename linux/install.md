@@ -24,9 +24,18 @@ sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt update && apt install sublime-text-installer 
 ```
 
+
 ## Install Nvidia Drivers from PPA
 
 ``` bash
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update && apt -y install nvidia-367
+```
+
+
+## Install Oracle Java from PPA
+
+``` bash
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt update && sudo apt -y install oracle-java8-installer
 ```
