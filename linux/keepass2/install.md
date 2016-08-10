@@ -2,11 +2,11 @@
 
 [Install KeeFox](https://addons.mozilla.org/ru/firefox/addon/keefox/)
 
-`sudo apt-get install keepass2 mono-dmcs libmono-system-management4.0-cil libmono-system-numerics4.0-cil`
+`sudo apt install keepass2 mono-dmcs libmono-system-management4.0-cil libmono-system-numerics4.0-cil`
 
 `sudo apt-add-repository ppa:dlech/keepass2-plugins`
 
-`sudo apt-get update && sudo apt-get install xul-ext-keefox keepass2-plugin-keepasshttp`
+`sudo apt update && sudo apt install xul-ext-keefox keepass2-plugin-keepasshttp`
 
 ## Install RPC plugin manually
 
