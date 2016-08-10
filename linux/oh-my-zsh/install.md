@@ -1,7 +1,7 @@
 # Install Oh My Zsh in ubuntu 16.04
 
 ``` bash
-sudo apt-get install zsh git-core
+sudo apt install zsh git-core
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 ```
 
