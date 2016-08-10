@@ -23,3 +23,10 @@ composer global require "hirak/prestissimo:^0.3"
 sudo add-apt-repository ppa:webupd8team/sublime-text-3
 sudo apt update && apt install sublime-text-installer 
 ```
+
+## Install Nvidia Drivers from PPA
+
+``` bash
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update && apt -y install nvidia-graphics-drivers-367 
+```
