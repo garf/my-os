@@ -39,3 +39,12 @@ sudo apt update && apt -y install nvidia-367
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt update && sudo apt -y install oracle-java8-installer
 ```
+
+
+## Install Slack
+Use usual DEB-file.
+Additionally need to install this packages, ptherwite Slack will not open or will crash on every start.
+
+``` bash
+sudo apt install gir1.2-gnomekeyring-1.0 libgnome-keyring0
+```
