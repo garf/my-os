@@ -14,7 +14,7 @@ chsh -s `which zsh`
 
 
 ``` bash
-sudo apt-get install python-pip git
+sudo apt install python-pip git
 su -c 'pip install git+git://github.com/Lokaltog/powerline'
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 sudo mv PowerlineSymbols.otf /usr/share/fonts/
