@@ -16,3 +16,11 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 composer global require "hirak/prestissimo:^0.3"
 ```
+
+## Install Sublime Text 3 from PPA
+
+``` bash
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt update
+sudo apt install sublime-text-installer 
+```
