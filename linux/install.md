@@ -28,5 +28,5 @@ sudo apt update && apt install sublime-text-installer
 
 ``` bash
 sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt update && apt -y install nvidia-graphics-drivers-367 
+sudo apt update && apt -y install nvidia-367
 ```
