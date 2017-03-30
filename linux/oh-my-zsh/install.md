@@ -11,7 +11,18 @@ chsh -s `which zsh`
 ## Agnoster theme installation
 
 ### Install [Powerline Fonts](https://github.com/powerline/fonts)
+```bash
+# clone
+git clone https://github.com/powerline/fonts.git
+# install
+cd fonts
+./install.sh
+# clean-up a bit
+cd ..
+rm -rf fonts
+```
 
+OR
 
 ``` bash
 sudo apt install python-pip git
