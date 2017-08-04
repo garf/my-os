@@ -18,6 +18,7 @@ keepass2 mono-dmcs libmono-system-management4.0-cil \
 libmono-system-numerics4.0-cil xul-ext-keefox keepass2-plugin-keepasshttp \
 google-chrome-stable \
 apt-transport-https ca-certificates curl software-properties-common
+sudo pip install --upgrade pip
 
 sudo rm /etc/apt/sources.list.d/google.list
 sudo rm /etc/apt/sources.list.d/google.list.save
