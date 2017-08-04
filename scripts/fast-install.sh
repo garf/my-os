@@ -9,7 +9,7 @@ sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 
 sudo apt update
-sudo apt dist-upgrade
+sudo apt -y dist-upgrade
 sudo apt -y install yakuake mc git git-core git-gui vim thunderbird curl sublime-text-installer nvidia-367\
  unrar p7zip p7zip-full\
  oracle-java8-installer gir1.2-gnomekeyring-1.0 libgnome-keyring0\
