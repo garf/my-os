@@ -10,13 +10,21 @@ wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-ke
 
 sudo apt update
 sudo apt -y dist-upgrade
-sudo apt -y install yakuake mc git git-core git-gui vim thunderbird curl sublime-text-installer nvidia-367\
- unrar p7zip p7zip-full\
- oracle-java8-installer gir1.2-gnomekeyring-1.0 libgnome-keyring0\
- zsh git-core python-pip\
- keepass2 mono-dmcs libmono-system-management4.0-cil\
- libmono-system-numerics4.0-cil xul-ext-keefox keepass2-plugin-keepasshttp\
- google-chrome-stable
+sudo apt -y install yakuake mc git git-core git-gui vim thunderbird curl sublime-text-installer nvidia-367 \
+unrar p7zip p7zip-full \
+oracle-java8-installer gir1.2-gnomekeyring-1.0 libgnome-keyring0 \
+zsh git-core python-pip \
+keepass2 mono-dmcs libmono-system-management4.0-cil \
+libmono-system-numerics4.0-cil xul-ext-keefox keepass2-plugin-keepasshttp \
+google-chrome-stable \
+apt-transport-https ca-certificates curl software-properties-common
+
+sudo rm /etc/apt/sources.list.d/google.list
+sudo rm /etc/apt/sources.list.d/google.list.save
+
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
 mkdir -p tmp
 cd tmp
@@ -54,3 +62,10 @@ cd ~/tmp && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar x
 git config --global user.email "garipov.dinar@gmail.com"
 git config --global user.name "Dinar Garipov"
 
+sudo apt -y remove docker docker-engine docker.io
+sudo apt update
+sudo apt -y install linux-image-extra-$(uname -r) linux-image-extra-virtual docker-ce
+curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compose-`uname -s`-`uname -m` > ~/tmp/docker-compose
+sudo cp ~/tmp/docker-compose /usr/local/bin/
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
