@@ -65,6 +65,7 @@ git config --global user.name "Dinar Garipov"
 sudo apt -y remove docker docker-engine docker.io
 sudo apt update
 sudo apt -y install linux-image-extra-$(uname -r) linux-image-extra-virtual docker-ce
+sudo usermod -a -G docker $USER
 curl -L https://github.com/docker/compose/releases/download/1.14.0/docker-compose-`uname -s`-`uname -m` > ~/tmp/docker-compose
 sudo cp ~/tmp/docker-compose /usr/local/bin/
 sudo chmod +x /usr/local/bin/docker-compose
